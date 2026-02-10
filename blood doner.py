@@ -1,10 +1,10 @@
-AEG = 13
+MIN_AGE = 16
+MIN_WEIGHT = 50
 
-age = int(input("Welcome to the Zoo Please enter your age"))
-
-if age < AEG:
-    print("You Pay Child Prices")
+age = int(input("Enter Your Age"))
+weight = int(input("Enter Your Weight"))
+if age >= MIN_AGE and weight >= MIN_WEIGHT:
+    print("Eligible")
 else:
-     print("You Pay Adult Prices")
+     print("Your Not Eligible")
 
-print("Welcome to the Zoo")
