@@ -1,0 +1,18 @@
+'''Program to Tell People how much Paracetamol to take'''
+AGE = 12
+
+age = int(input("Enter Your Age"))
+#cheaks if age is Valid and if its above/equal or bellow 12
+if age >= 0 and age <= 100:
+    if age >= AGE:
+        print("Take 2x 500mg Tablets")
+    else:
+        weight = int(input("Enter Your Weight"))
+    if weight >= 1 and weight <= 200:
+        dosage = weight * 10 
+    print(f"Recommended dosage is {dosage}mg")
+
+
+
+
+
