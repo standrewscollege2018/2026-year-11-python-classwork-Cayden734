@@ -11,7 +11,7 @@ if age >= 0 and age <= 100:
     if weight >= 1 and weight <= 200:
         dosage = weight * 10 
     print(f"Recommended dosage is {dosage}mg")
-
+2
 
 
 
