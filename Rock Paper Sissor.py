@@ -16,23 +16,23 @@ for i in range (0,4):
     print(f"{random_selection}")
 
     print(Choice)
-    if Choice.lower() == "rock" and random_selection == "sissors":
+    if Choice.lower() == "rock" and random_selection.lower() == "sissors":
         print("You Win")
-    if Choice.lower() == "Rock" and random_selection == "paper":
+    if Choice.lower() == "rock" and random_selection.lower() == "paper":
         print("You Loose")
-    if Choice.lower() == "Rock" and random_selection == "rock":
+    if Choice.lower() == "rock" and random_selection.lower() == "rock":
         print("Tie")
-    if Choice == "Sissors" and random_selection == "sissors":
+    if Choice == "Sissors" and random_selection.lower() == "sissors":
         print("Tie")
-    if Choice == "Sissors" and random_selection == "paper":
+    if Choice == "Sissors" and random_selection.lower() == "paper":
         print("You Win")
-    if Choice == "Sissors" and random_selection == "rock":
+    if Choice == "Sissors" and random_selection.lower() == "rock":
         print("You Loose")
-    if Choice == "Paper" and random_selection == "sissors":
+    if Choice == "Paper" and random_selection.lower() == "sissors":
         print("You Loose")
-    if Choice == "Paper" and random_selection == "paper":
+    if Choice == "Paper" and random_selection.lower() == "paper":
         print("Tie")
-    if Choice == "Paper" and random_selection == "rock":
+    if Choice == "Paper" and random_selection.lower() == "rock":
         print("You Win")
 
 
