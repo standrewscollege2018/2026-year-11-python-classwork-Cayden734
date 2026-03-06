@@ -9,7 +9,7 @@ while quit != 0:
     for i in range(len(name)):
         print(f"{i+1}. {name[i]:10} {drive[i]:10}")
 
-    # Get selection and error prevention
+    # Get selection and error prevention    
     get_selection = True
     while get_selection == True:
         try:
